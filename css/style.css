@@ -95,6 +95,7 @@ body {
 
 .main {
    padding-top: 31px;
+   padding-bottom: 53px;
 }
 
 .menu {
@@ -164,8 +165,6 @@ color: #343434;
 
 .img-logo-footer {
     align-self: center;
-}
-
-.img-logo-footer img {
-    row-gap: 10px;
+     display: flex;
+    column-gap: 10px;
 }
