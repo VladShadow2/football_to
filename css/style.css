@@ -56,12 +56,12 @@ body {
     column-gap: 29px;
 }
 
-.communication p {
+.communication p , a {
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
     text-align: right;
-
+    text-decoration: none;  
 }
 
 .communication img {
@@ -84,6 +84,7 @@ body {
 
 .golovni img {
     width: 100%;
+    vertical-align: bottom;
 }
 
 .secondary {
@@ -163,8 +164,8 @@ color: #343434;
     justify-content: space-between;
 }
 
-.img-logo-footer {
-    align-self: center;
-     display: flex;
-    column-gap: 10px;
+footer ul {
+    display: flex;
+list-style: none;
+column-gap: 10px;
 }
