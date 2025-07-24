@@ -25,12 +25,13 @@ body {
 .header {
     width: 100%;
     display: flex;
+    padding: 15px 0 ;
     justify-content: space-between;
 }
 
 .logo {
     display: flex;
-
+column-gap: 8px=;
 }
 
 .logo p {
@@ -39,6 +40,7 @@ body {
     font-size: 14px;
     color: #5a5a5a;
     margin-left: 8px;
+    margin: 0;
 }
 
 .logo strong {
@@ -56,7 +58,7 @@ body {
     column-gap: 29px;
 }
 
-.communication p , a {
+.communication p , .a-phone {
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
