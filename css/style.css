@@ -13,12 +13,14 @@ body {
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 930px;
     margin: auto;
+     padding: 0 15px;
+     
 }
 
 .wrap-container {
-    padding: 0 16px;
+   
     background-color: #fff;
 }
 
@@ -63,7 +65,8 @@ column-gap: 8px;
     color: #5a5a5a;
     font-weight: bold;
     text-align: right;
-    text-decoration: none;  
+    text-decoration: none; 
+    margin: 0; 
 }
 
 .communication img {
@@ -80,6 +83,12 @@ column-gap: 8px;
     column-gap: 3px;
 }
 
+.phone a:hover {
+    color:#39930d;
+transition: all 0.1s ease;
+font-size: 17px;
+}
+
 .golovni {
     margin-bottom:10px;
 }
@@ -92,7 +101,7 @@ column-gap: 8px;
 .secondary {
     display: flex;
     column-gap: 10px;
-    justify-content: space-between;
+        
     flex-wrap: wrap;
 }
 
@@ -131,14 +140,18 @@ column-gap: 8px;
 
 }
 
+
 .menu a:hover {
     color: #39930d;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .main-text{
     float: right;
-     width: 640px;
-    align-self:flex-start; 
+     width: 610px;
+  
 }
 
 .main-text h1{
@@ -170,4 +183,9 @@ footer ul {
     display: flex;
 list-style: none;
 column-gap: 10px;
+}
+
+.program:hover {
+    width: 25px;
+    transition: all 2s ease;
 }
