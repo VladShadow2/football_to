@@ -83,10 +83,15 @@ column-gap: 8px;
     column-gap: 3px;
 }
 
-.phone a:hover {
+.phone a {
+    display: inline-block;
+}
+
+.phone:hover {
     color:#39930d;
 transition: all 0.1s ease;
-font-size: 17px;
+transform: scale(1.25);
+
 }
 
 .golovni {
@@ -132,20 +137,20 @@ font-size: 17px;
 }
 
 .menu a {
+    display: inline-block;
     color: #343434;
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
     text-transform: uppercase;
-
+    transition: all 0.5s ease;
 }
 
 
-.menu a:hover {
+.menu li:hover>a {
     color: #39930d;
-    transition: all 0.5s ease;
     text-decoration: none;
-    font-size: 16px;
+    transform:scale(1.25);
 }
 
 .main-text{
@@ -185,7 +190,11 @@ list-style: none;
 column-gap: 10px;
 }
 
+.program {
+transition: all 1s ease;
+}
+
 .program:hover {
-    width: 25px;
-    transition: all 2s ease;
+transform: scale(1.25);    
+    interpolate-size:allow-keywords;
 }
