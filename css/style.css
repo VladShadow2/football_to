@@ -8,12 +8,9 @@ body {
     vertical-align: bottom;
 }
 
-.clear {
-    clear: both;
-}
 
 .wrapper {
-    max-width: 930px;
+    width: 80%;
     margin: auto;
      padding: 0 15px;
      
@@ -29,11 +26,13 @@ body {
     display: flex;
     padding: 15px 0 ;
     justify-content: space-between;
+    row-gap: 25px;
+    flex-wrap: wrap;
 }
 
 .logo {
     display: flex;
-column-gap: 8px;
+    column-gap: 8px;
 }
 
 .logo p {
@@ -105,19 +104,26 @@ transform: scale(1.2);
 
 .secondary {
     display: flex;
-    column-gap: 10px;
-        
+    gap: 10px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
+.secondary img {
+   width:24.3%;
+   min-width:255px;
+}
+
 .main {
+    display: flex;
    padding-top: 31px;
    padding-bottom: 53px;
+   column-gap: 18px;
 }
 
 .menu {
     width: 300px;
-    float: left;
+    
 }
 
 .menu p {
@@ -154,9 +160,7 @@ transform: scale(1.2);
 }
 
 .main-text{
-    float: right;
      width: 610px;
-  
 }
 
 .main-text h1{
@@ -198,3 +202,19 @@ transition: all 1s ease;
 transform: scale(1.25);    
     interpolate-size:allow-keywords;
 }
+
+@media screen and (min-width:2560px){
+.main-text{
+     width: 80%;
+  
+}
+}
+
+@media screen and (min-width:375px) {
+.header{justify-content: center;}
+}
+
+@media screen and (min-width:320px){
+    .header{justify-content: center;}
+}
+ 
